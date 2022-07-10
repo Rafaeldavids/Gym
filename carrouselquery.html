@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <title>Document</title>
+</head>
+<style>
+
+
+body{
+  background-color: rgb(36, 35, 35);
+}
+
+
+  header {
+    width: 100vw;
+    height: 80px;
+    background-color: brown;
+    text-align: center;
+    margin-top: -18px;
+
+  }
+
+
+     .content{
+        height: 500px;
+        width: 500px;
+        background-color: rgb(13, 13, 14);
+        margin: 2px;
+        text-align: center;
+    }
+    .content img {
+       
+        width: 100%;
+    }
+
+</style>
+<body>
+
+  <header>
+    <div><h1>Best F****** THINGS</h1></div>
+  </header>
+    <div id="noclass">
+        <div class="content"><img src="bands\anthrax.jpg" alt=""><img src="bands\anthraxfigth.jpg" alt="" srcset=""></div>
+        <div class="content">  <img src="bands\500x500.jpg" alt=""> </div>
+        <div class="content"><img src="bands\Ressurection.jpg" alt=""><img src="bands\randy.jpg" alt="" srcset=""></div>
+        <div class="content"><img src="bands\megahidden.jpg" alt="" srcset=""><img src="bands\Megadeth.jpg" alt="" srcset=""></div>
+        <div class="content"><img src="bands\slayer.jpg" alt="" srcset=""><img src="bands/slayerstage.jpg" alt="" srcset=""></div>
+        <div class="content"><img src="bands/sepultura.jfif" alt="" srcset=""><img src="bands/sepulturastage.jpg.crdownload" alt="" srcset=""></div>
+      </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>    
+<script>
+    $(document).ready(function(){
+  $('#noclass').slick({
+    infinite: true,
+    slidesToShow:3,
+    slidesToScroll:3,
+    dots: true,
+    arrows: true,
+    scroll:true,
+    
+  });
+});
+</script>
+</body>
+</html>

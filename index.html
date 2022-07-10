@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+  background-color: rgb(36, 35, 35);
+}
+
+
+  header {
+    width: 100vw;
+    height: 80px;
+    background-color: brown;
+    text-align: center;
+    margin-top: 0px;
+
+  }
+
+
+  .first {
+    display: flex;
+  }
+
+
+  .chest {
+   
+    width: 50%;
+    height: 40%;
+    display: block;
+    margin: 10px;
+  }
+  .chest img {
+    width: 100%;
+    height: 40%;
+
+  }
+
+  .chest:hover {
+    width: 55%;
+    border: 1px solid red ;
+    transition: 2s;
+    cursor: pointer;
+  }
+
+  .back {
+    
+    width: 50%;
+    height: 40%;
+    margin: 10px;
+    
+  }
+
+  .back img {
+    width: 100%;
+    height: 40%;
+
+  }
+
+  .back:hover {
+    width: 55%;
+    border: 1px solid red ;
+    transition: 2s;
+    cursor: pointer;
+  }
+
+
+  .second {
+    display: flex;
+  }
+
+
+  .biceps {
+    
+    width: 50%;
+    height: 40%;
+    display: block;
+    margin: 10px;
+    
+  }
+  .biceps img {
+    width: 100%;
+    height: 40%;
+
+  }
+
+  .biceps:hover {
+    width: 55%;
+    border: 1px solid red ;
+    transition: 2s;
+    cursor: pointer;
+  }
+
+  .triceps {
+   
+    width: 50%;
+    height: 40%;
+    margin: 10px;
+    
+
+  }
+
+
+  .triceps img {
+    width: 100%;
+    height: 40%;
+
+  }
+
+  .triceps:hover{
+    width: 55%;
+    border: 1px solid red ;
+    transition: 2s;
+    cursor: pointer;
+  }
+
+  .three {
+    margin: 10px;
+    width: 50%;
+    height: 30%;
+    
+    text-align: center;
+    margin: 0 auto;
+
+  }
+  
+
+  .three img {
+    width: 100%;
+    height: 30%;
+  }
+  .three:hover {
+    
+    width: 80%;
+    border: 1px solid red ;
+    transition: 2s;
+    cursor: pointer;
+  }
+
+
+  .fourth {
+    display: flex;
+  }
+
+
+  .shoulders {
+    
+    width: 50%;
+    height: 30%;
+    display: block;
+    margin: 10px;
+  }
+  .shoulders img {
+    width: 100%;
+    height: 30%;
+
+  }
+  .shoulders:hover {
+    width: 55%;
+    border: 1px solid red ;
+    transition: 2s;
+    cursor: pointer;
+  }
+
+  .legs {
+    width: 50%;
+    height: 30%;
+    display: block;
+    margin: 10px;
+  }
+
+  .legs img {
+    width: 100%;
+    height: 30%;
+
+  }
+
+  .legs:hover {
+    width: 55%;
+    border: 1px solid red ;
+    transition: 2s;
+    cursor: pointer;
+  }
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gym app</h1>
+    </header>
+    <div class="first">
+    <div class="chest"  data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+        <img src="chest.jpg"  alt="">
+    </div>
+    <div class="back">
+        <img src="backs.jpg" alt="">
+    </div>
+    </div>
+
+    <div class="second">
+        <div class="biceps">
+            <img src="biceps.jpg" alt="">
+        </div>
+        <div class="triceps">
+            <img src="triceps.jpg" alt="">
+        </div>
+    </div>
+
+
+    <div class="three">
+        <img src="core.jpg" alt="">
+    </div>
+
+<div class="fourth">
+    <div class="shoulders">
+        <img src="shoulders.jpg" alt="">
+    </div>
+    <div class="legs">
+        <img src="legs.webp" alt="">
+    </div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
+</body>
+</html>
