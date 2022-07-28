@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1\slick\slick.css">
+    <link rel="stylesheet" href="slick-1.8.1\slick\slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <title>Chest</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+  background-color: rgb(36, 35, 35);
+}
+
+
+  header {
+    width: 100vw;
+    height: 80px;
+    background-color: brown;
+    text-align: center;
+    margin-top: 0px;
+
+  } 
+  main {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .container img{
+    width: 500px;
+  }
+  .container video{
+    
+   width: 800px;
+  }
+</style>
+  </head>
+  <body>
+    <header>
+        <h1>Lower Chest</h1>
+    </header>
+    <main>
+      <div class="container">
+          
+          <div><video autoplay loop src="peito inferior.mp4"></video></div>
+          
+          <div><img src="fortalezabr.jpg" alt=""></div>
+        </div>
+      
+  
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="slick-1.8.1\slick\slick.min.js"></script>
+  
+        <script>
+        $(document).ready(function(){
+          $('.container').slick({
+            autoplay:false,
+            slidesToShow:2,
+            arrows:true,
+  
+          });
+        });</script>
+        </main>
+  </body>
+  </html>
