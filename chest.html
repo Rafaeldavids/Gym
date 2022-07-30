@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1\slick\slick.css">
+    <link rel="stylesheet" href="slick-1.8.1\slick\slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Chest</title>
     <style>
@@ -28,24 +31,35 @@
     text-align: center;
     justify-content: center;
   }
-
+.uppert{
+  background-color: rgba(128, 128, 128, 0.238);
+  color: rgba(226, 222, 222, 0.779);
+}
   .upper {
     margin-top: 20px;
+    padding: 15px;
   }
 
-  .upper img { width: 800px;
-    height: 800px;
+  #upper img { margin: 10px;
+    
+  }
+  .midt {
+    background-color: rgba(128, 128, 128, 0.238);
+  color: rgba(226, 222, 222, 0.779);
+  }
+
+  .mid {margin-top: 20px;
+    padding: 15px;
+  }
+
+
+  .mid img {margin: 10px;
     
   }
 
-  .mid {
-    margin-top: 20px;
-  }
-
-
-  .mid img { width: 800px;
-    height: 800px;
-    
+  .lowert {
+    background-color: rgba(128, 128, 128, 0.238);
+  color: rgba(226, 222, 222, 0.779);
   }
 
   .lower {
@@ -53,8 +67,7 @@
     margin-bottom: 10px;
   }
   .lower img {
-    width: 800px;
-    height: 800px;
+    margin: 10px;
   }
 
   </style>
@@ -64,13 +77,58 @@
         <h1>Chest</h1>
     </header>
     <main>
-        <div class="upper"><img src="Upper Chest.png" alt="">
-          </div>
-          <div class="mid">
-            <img src="CHest.png" alt="">
-          </div>
-        <div class="lower">
-          <img src="lower chest.png" alt="">
+      
+      <div class="uppert"><h1>Upper</h1></div>
+        <div class="upper" id="upper">
+          <img src="upper.gif" alt="">
+          <img src="upper\Cable-Upper-Chest-Crossovers.gif" alt="">
+          <img src="upper\Incline-dumbbell-Fly.gif" alt="">
+          <img src="upper\Incline-Dumbbell-Press.gif" alt="">
+          <img src="upper\Reverse-Grip-Incline-Dumbbell-Press.gif" alt="">
         </div>
+          <div class="midt"><h1>Middle</h1></div>
+          <div class="mid">
+            <img src="medium/Cable-Crossover.gif" alt="">
+            <img src="medium/Clap-Push-Up.gif" alt="">
+            <img src="medium/Close-Grip-Dumbbell-Press.gif" alt="">
+            <img src="medium/Hammer-Press.gif" alt="">
+            <img src="medium/Lever-Pec-Deck-Fly_Chest_720.gif" alt="">
+            <img src="medium/Pec-Deck-Fly.gif" alt="">
+            <img src="medium/Reverse-Push-up.gif" alt="">
+          </div>
+          <div class="lowert"><h1>Lower</h1></div>
+        <div class="lower">
+          <img src="Lower/Assisted-Chest-Dip.gif" alt="">
+          <img src="lower/Dumbbell-Pullover.gif" alt="">
+        </div>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="slick-1.8.1\slick\slick.min.js"></script>
+
+      <script>
+      $(document).ready(function(){
+        $('.upper').slick({
+          autoplay:false,
+          slidesToShow:2,
+          arrows:true,
+
+        });
+      });
+      $(document).ready(function(){
+        $('.mid').slick({
+          autoplay:false,
+          slidesToShow:2,
+          arrows:true,
+
+        });
+      });
+      $(document).ready(function(){
+        $('.lower').slick({
+          autoplay:false,
+          slidesToShow:2,
+          arrows:true,
+
+        });
+      });</script>
     </main>
   </html>
